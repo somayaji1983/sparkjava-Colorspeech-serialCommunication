@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <groupId>sparkjava.RBIApi</groupId>
+  <artifactId>sparkjava-RGB-API</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Spark Java RBG API</name>
+  
+  <description>Spark java RGB API and arduino serial communication</description>
+  
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <!-- SparkJava dependency Begin -->
+    <dependency>
+	    <groupId>com.sparkjava</groupId>
+	    <artifactId>spark-core</artifactId>
+	    <version>2.7.2</version>
+	</dependency>
+	<!-- SparkJava dependency End -->
+    
+  </dependencies>
+  
+</project>
